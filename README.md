@@ -136,10 +136,6 @@ make demo
 ```
 annuaire/
 ├── main.go                      # Point d'entrée principal
-├── internal/
-│   └── contact/
-│       ├── contact.go           # Structure Contact
-│       └── contact_test.go      # Tests du package contact
 ├── pkg/
 │   ├── contact/
 │   │   ├── contact.go           # Structure Contact
