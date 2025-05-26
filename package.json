@@ -1,0 +1,27 @@
+{
+  "name": "annuaire-web-interface",
+  "version": "1.0.0",
+  "description": "Interface web pour l'annuaire Go",
+  "main": "web-server.js",
+  "scripts": {
+    "start": "node web-server.js",
+    "dev": "nodemon web-server.js"
+  },
+  "keywords": [
+    "go",
+    "annuaire",
+    "contacts",
+    "web",
+    "autorefresh"
+  ],
+  "author": "EFREI Master 2",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "chokidar": "^3.5.3",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
