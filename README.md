@@ -29,7 +29,7 @@
 
 ```bash
 # Cloner le projet
-git clone <votre-repo-url>
+git clone https://github.com/Rom2-ls/annuaire
 cd annuaire
 
 # Installer les dépendances
@@ -68,6 +68,8 @@ go run main.go --action supprimer --nom "Dupont" --prenom "Jean"
 ```
 
 #### Modifier un contact
+
+git push -u origin master
 
 ```bash
 go run main.go --action modifier --ancien-nom "Dupont" --ancien-prenom "Jean" --nom "Martin" --prenom "Pierre" --tel "0987654321"
